@@ -82,7 +82,8 @@ jobs:
           command: nextest
           args: run --workspace
 
-      # - name: Run screenshot tests
+      - name: Run screenshot tests
+        run: cargo run -- run guest/rust/examples/basics/primitives --headless --screenshot-test 1
       #   run: node scripts/update_screenshots.js
       # Provides a history of the cache content builds over build to make troubleshooting easier
       - name: Display target directory content
