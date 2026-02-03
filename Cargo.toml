@@ -102,7 +102,7 @@ quote = "1.0"
 pretty_assertions = "1.2.1"
 syn = { version = "1.0", features = ["full", "extra-traits"] }
 proc-macro-crate = "1.1.0"
-bytes = "1.1.0"
+bytes = "1.11.1"
 dashmap = "5.3.0"
 slotmap = "1.0.6"
 atomic_refcell = "0.1.8"
